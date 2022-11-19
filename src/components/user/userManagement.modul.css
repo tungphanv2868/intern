@@ -1,0 +1,212 @@
+/* .navigation{
+    position: absolute;
+    width: 266px;
+    height: 820px;
+    background: #EDF2F7;
+    border-left: 10px solid #EDF2F7;
+    padding: 30px 10px 0px 10px;
+    transition: 0.5s;
+    overflow: hidden;
+}
+.navigation.active{
+    width: 80px;
+}
+.navigation ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.navigation ul li{
+    position: relative;
+    width: 100%;
+    list-style: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.navigation ul li:hover,
+.navigation ul li .hovered{
+    background: #fff;
+}
+.navigation ul li:nth-child(1){
+    margin-bottom: 50px;
+    pointer-events: none;
+}
+.navigation ul li a{
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: #285D9A;
+}
+.navigation ul li:hover a,
+.navigation ul li .hovered a{
+    color: #285D9A;
+}
+.navigation ul li a .icon{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 74px;
+    text-align: center;
+}
+.navigation ul li a .icon ion-icon{
+    font-size: 1.75em;
+}
+.navigation ul li a .title{
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    height: 60px;
+    line-height: 60px;
+    text-align: start;
+    white-space: nowrap;
+} 
+
+.navigation ul li:hover a::before,
+.navigation ul li .hovered a::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: -50px;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: 35px 35px 0 10px #fff;
+    pointer-events: none;
+}
+.navigation ul li:hover a::after,
+.navigation ul li .hovered a::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: 35px -35px 0 10px #fff;
+    pointer-events: none;
+} */
+
+
+.main{
+    position: relative;
+    max-width: 100%;
+    left: 300px;
+    min-height: 100vh;
+    background: #fff;
+    transition: 0.5s;
+}
+
+.title-h3{
+    display: flex;
+    padding: 15px 30px;
+    width: 1174px;
+    height: 59px;
+}
+.title-h3 h2{
+    width: 279px;
+    height: 29px;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.2em;
+    color: #2D3748;
+    font-weight: 500;
+}
+.topbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.toggle{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    cursor: pointer;
+}
+.search{
+    width: 400px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search button{
+    border-radius: 10px;
+}
+.search label{
+    width: 100%;
+    position: relative;
+    padding: 0 10px;
+}
+.search label input{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    outline: none;
+    border: 1px solid black;
+    padding-left: 35px;
+    font-size: 18px;
+}
+.search label ion-icon{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    font-size: 1.2em;
+}
+.button{
+    position: absolute;
+    left: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    cursor: pointer;
+}
+.button button{
+    border-radius: 10px;
+}
+
+
+.details{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    margin-top: 30px;
+}
+.details table{
+    width: 1150px;
+    margin-top: 10px;
+    text-align: center;
+}
+.details table thead{
+    background-color: #2D3748;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+
+}
+.details table thead th{
+    text-align: center;
+    font-weight: 700;
+    padding: 3px;
+    font-size: 14px;
+}
+
+.details table tr td{
+    border-bottom: 1px solid;
+    padding: 7px;
+}
+

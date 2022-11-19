@@ -1,0 +1,19 @@
+
+.NavBar i {
+    padding-right: 20px;
+    
+}
+
+.NavBar button {
+    float: left;
+    display: block;
+    min-width: 100%;
+    text-align: left;
+    padding: 10px;
+}
+
+.NavBar button:hover {
+    background-color: #FAF0CA;
+    color: #EE964B;
+    font-weight: bold;
+}
